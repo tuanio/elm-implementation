@@ -7,7 +7,7 @@ This is the respository that implement the Extreme Learning Machine for Single H
 
 **Boston Housing dataset for Regression problem**
 
-|Algorithm|Type|Training time (miliseconds)|RMSE on trainset|RMSE on testset|
+|Algorithm|Type|Training time (miliseconds)|Trainset RMSE|Testset RMSE|
 |---|---|:---:|:---:|:---:|
 |ELM|Neural Network|54.62|4.69|4.82|
 |Ridge|Linear Model|2.66|4.72|4.75|
@@ -19,7 +19,7 @@ This is the respository that implement the Extreme Learning Machine for Single H
 
 
 **MNIST dataset for Classification problem**
-|Algorithm|Type|Training time (miliseconds)|RMSE on trainset|RMSE on testset|
+|Algorithm|Type|Training time (miliseconds)|Trainset accuracy (%)|Testset accuracy (%)|
 |---|---|:---:|:---:|:---:|
 |ELM|Neural Network|4754.13|91.94|92.22|
 |Logistic Regression|Linear Model|21112.03|93.39|92.55|
