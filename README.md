@@ -8,7 +8,7 @@ This is the respository that implement the Extreme Learning Machine for Single H
 **Boston Housing dataset for Regression problem**
 
 |Algorithm|Consumed training time (miliseconds)|RMSE on trainset|RMSE on testset|
-|---|---|---|---|---|
+|---|---|---|---|
 |ELM|78.84|4.69|4.82|
 |Ridge|1.86|4.72|4.75|
 |Support Vector Machine|16.36|8.25|8.15|
