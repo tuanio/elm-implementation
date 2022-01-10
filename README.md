@@ -15,6 +15,11 @@ This is the respository that implement the Extreme Learning Machine for Single H
 - Accuracy Score for train set: 91.94%
 - Accuracy Score for test set: 92.22%
 
+## Structure
+- `elm.py`: This is a file that implement `ELMBase` class and two class for Classification and Regression: `ELMClassifier` and `ELMRegressor`.
+- `elm_classification.ipynb`: Notebook contain testing code for MNIST dataset.
+- `elm_regression.ipynb`: Notebook contain testing code for Boston Housing dataset.
+- `utils.py`: Utility functions support above 3 files.
 
 ## References
 
