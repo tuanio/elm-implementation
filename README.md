@@ -17,8 +17,8 @@ This is the respository that implement the Extreme Learning Machine for Single H
 
 ## Structure
 - `elm.py`: This is a file that implement `ELMBase` class and two class for Classification and Regression: `ELMClassifier` and `ELMRegressor`.
-- `elm_classification.ipynb`: Notebook contain testing code for MNIST dataset.
-- `elm_regression.ipynb`: Notebook contain testing code for Boston Housing dataset.
+- `elm_classification.ipynb`: Notebook contain testing code for `ELMClassifier` for MNIST dataset.
+- `elm_regression.ipynb`: Notebook contain testing code for `ELMRegressor` on Boston Housing dataset.
 - `utils.py`: Utility functions support above 3 files.
 
 ## References
