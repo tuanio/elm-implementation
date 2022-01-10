@@ -15,7 +15,7 @@ This is the respository that implement the Extreme Learning Machine for Single H
 |K-Nearest Neighbors|Nearest Neighbors|1.82|4.98|6.08|
 |Decision Tree|Tree-based|5.81|0 (overfit)|5.62|
 |Random Forest|Tree-based Esemble|291.68|1.12|3.68|
-|Single-Layer Perceptron (Back-propagation)|Neural Network|349.52|7.08|7.5|
+|Perceptron (Back-propagation)|Neural Network|349.52|7.08|7.5|
 
 
 **MNIST dataset for Classification problem**
