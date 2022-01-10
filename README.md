@@ -9,25 +9,27 @@ This is the respository that implement the Extreme Learning Machine for Single H
 
 |Algorithm|Type|Training time (miliseconds)|RMSE on trainset|RMSE on testset|
 |---|---|:---:|:---:|:---:|
-|ELM|Neural Network|78.84|4.69|4.82|
-|Ridge|Linear Model|1.86|4.72|4.75|
-|SVR|Support Vector Machine|16.36|8.25|8.15|
+|ELM|Neural Network|54.62|4.69|4.82|
+|Ridge|Linear Model|2.66|4.72|4.75|
+|SVR|Support Vector Machine|26.32|8.25|8.15|
+|K-Nearest Neighbors|Nearest Neighbors|1.97|4.98|6.08|
+|Decision Tree|Tree-based|7.2|0 (overfit)|5.1|
+|Random Forest|Tree-based Esemble|293.13|1.19|3.8|
+|Perceptron (Back-propagation)|Neural Network|237.5|6.94|7.43|
+
+
+**MNIST dataset for Classification problem**
+|Algorithm|Type|Training time (miliseconds)|RMSE on trainset|RMSE on testset|
+|---|---|:---:|:---:|:---:|
+|ELM|Neural Network|4488.25|4.69|4.82|
+|Logistic Regression|Linear Model|21398.93|4.72|4.75|
+|SVC|Support Vector Machine|16.36|8.25|8.15|
 |K-Nearest Neighbors|Nearest Neighbors|1.82|4.98|6.08|
 |Decision Tree|Tree-based|5.81|0 (overfit)|5.62|
 |Random Forest|Tree-based Esemble|291.68|1.12|3.68|
 |Perceptron (Back-propagation)|Neural Network|349.52|7.08|7.5|
 
-
-**MNIST dataset for Classification problem**
-|Algorithm|Training time (miliseconds)|RMSE on trainset|RMSE on testset|
-|---|:---:|:---:|:---:|
-|ELM|78.84|4.69|4.82|
-|Logistic Regression|1.86|4.72|4.75|
-|Support Vector Machine|16.36|8.25|8.15|
-|K-Nearest Neighbors (K=5)|1.82|4.98|6.08|
-|Decision Tree|5.81|0 (overfit)|5.62|
-|Random Forest|291.68|1.12|3.68|
-|Single-Layer Perceptron (Back-propagation)|349.52|7.08|7.5|
+*Above is just a compact comparision table, you guys can see more detail in notebook.*
 
 ## Structure
 - `elm.py`: This is a file that implement `ELMBase` class and two class for Classification and Regression: `ELMClassifier` and `ELMRegressor`.
