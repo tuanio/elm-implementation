@@ -13,7 +13,7 @@ This is the respository that implement the Extreme Learning Machine for Single H
 |Ridge|1.86|4.72|4.75|
 |Support Vector Machine|16.36|8.25|8.15|
 |K-Nearest Neighbors|1.82|4.98|6.08|
-|Decision Tree|5.81|0|5.62|
+|Decision Tree|5.81|0 (overfit)|5.62|
 |Random Forest|291.68|1.12|3.68|
 |Single-Layer Perceptron|349.52|7.08|7.5|
 
