@@ -6,3 +6,5 @@ def relu(x):
 def sigmoid(x):
     return x / (1 + np.exp(x))
     
+def linear(x):
+    return x

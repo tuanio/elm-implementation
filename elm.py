@@ -1,7 +1,7 @@
 import numpy as np
 from sklearn.preprocessing import OneHotEncoder
 from scipy.special import softmax
-from utils import relu, sigmoid
+from utils import relu, sigmoid, linear
 
 class ELMBase:
     def __init__(self, n_hiddens=128, random_state=12):
@@ -13,8 +13,7 @@ class ELMRegressor(ELMBase):
     def __init__(self, n_hiddens=128, random_state=12):
         ELMBase.__init__(self, n_hiddens, random_state)
         self.m = 1
-        self.activation = lambda x: x # linear activation
-        # self.activation = relu
+        self.activation = linear
         
     def fit(self, X, y):
         self.W = self.rs.normal(size=(X.shape[1], self.n_hiddens))
