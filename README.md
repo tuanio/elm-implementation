@@ -5,8 +5,16 @@ This is the respository that implement the Extreme Learning Machine for Single H
 
 ## Benchmark
 
-|Problem Type|Dataset|Time Consume|Metrics|
-|---|---|---|---|
+### Boston Housing dataset for Regression problem
+- Consumed training time: 198 miliseconds (0.198 seconds)
+- Mean Square Error for train set: 22.004
+- Mean Square Error for test set: 23.195
+
+### MNIST dataset for Classification problem
+- Consumed training time: 4.73 seconds
+- Accuracy Score for train set: 91.94%
+- Accuracy Score for test set: 92.22%
+
 
 ## References
 
